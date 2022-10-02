@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
  body {
     background: #212727;
 }
@@ -12,7 +15,14 @@ display: none;
 .mobile-background{
   display: column;
 }
+.inter-map{
+  color: white;
+  font-family:'Ubuntu', sans-serif;
+  text-transform: capitalize;
+  text-align: center;
 
+
+}
 
 
 
@@ -59,14 +69,38 @@ display: none;
         from { width: 0; }
         to { width:180px; }
      }
-}
-@media (min-width: 620px){
+}@media (min-width: 620px){
   .space-background{
     display: block;
+    display: flex;
+  }
+   
+  .mobile-background{
+  display: none;
+}
+.desk2{
+  display: none;
+}
+}
+@media (min-width: 650px){
+  .desk{
+    margin-left: 40px;
   }
 }
-
-
+@media (min-width: 1080px){
+  .desk2{
+    display: block;
+    margin-right: 40px;
+    
+  }
+  .title{
+    margin-right: 20px;
+    margin-left:20px;
+  }
+  .inter-map{
+    font-size: 30px;
+  }
+}
 
 
 /*end of header*/
@@ -775,9 +809,6 @@ h2 span {
 }
 
 @media (min-width: 980px){
-    .desk img{
-        width: 400px;
-    }
     .title h1{
         font-size: 46px;
     }
