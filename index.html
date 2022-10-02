@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="Images/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c8e01facf.js" crossorigin="anonymous"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+        </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <body>
+        <header class="header-area">
+            <div class="header-container">
+                <div class="site-logo">
+                    <a href="index.html"><img src="Images/logo.png" width='80px'alt=""></a>
+                </div>
+                <div class="mobile-nav">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="site-nav-menu">
+                    <ul class="primary-menu">
+                        <li><a href="#About">About this Site</a></li>
+                        <li><a target="_blank" href="#bi">Background</a></li>
+                        <li><a href="#tbd">Our Sponsor</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- <section id="hero-section"></section> -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+        <script>
+            $(document).ready(function(){
+            $(".mobile-nav i").click(function(){
+                $(".site-nav-menu").toggleClass("mobile-menu");
+            });
+        });
+        </script>
+        <!--Quote section-->
+        <div class="space-background" >
+            <div class="non-mobile-item desk">
+                <img src="Images/satellite.png" width="300px;" alt="">
+            </div>
+    
+            <div class="non-mobile-item title">
+                <h1 style="text-align:center; font-family: 'Ubuntu', sans-serif; margin-top: 10px; text-transform: capitalize; color: white;">Earth Observation: International </h1>
+                <br>
+                <div style="margin: auto;" class="typingEffect1">
+                    Nimbus to Now
+                </div>
+            </div>
+    
+            <div class="non-mobile-item desk desk2">
+                <img class="desk2" src="Images/planet-earth.png" width="300px;" alt="">
+            </div>
+    
+        </div>
+    
+        <div class="mobile-background">
+            <div class="mobile-item">
+                <h1 style="text-align:center; font-family: 'Ubuntu', sans-serif; margin-top: 10px; text-transform: capitalize; color: white;">Earth Observation: International </h1>
+                <br>
+                <div style="margin: auto; text-align: center;" class="typingEffect1">
+                    Nimbus to Now
+                </div>
+                <br>
+                <br>
+            </div>
+               <div class="mobile-item">
+                   <img src="Images/satellite.png" width="80%" style="margin-left:10%;" alt="">
+               </div>
+               
+        </div>
+        <br>
+        <br>
+
+        <h3 style="text-align: center; font-family: 'Ubuntu', sans-serif; color: white; text-transform: capitalize; margin: 8px;">Interactive Map</h3>
+        <hr style="height: 4px; width: 30%; margin-left: 35%; background-color: white;">
+        <br>
+        
+        <!-- <div class="box" ></div> -->
+        <div class="distribution-map">
+            <img src="Images/map.png" alt="" />
+           
+            <button class="map-point" style="top:47.5%;left:25%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h2>Cape Canaveral</h2>
+                        <br>
+                        <p>GOES A-C launched here in 1975, 1977, and 1978, and their goal was to provide continuous observations
+                            of weather patterns. None of the three are still in service. 
+                        </p>
+                    </div>
+                </div>
+            </button>
+            <button class="map-point" style="top:40%;left:65%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h2>Baikonur Cosmodrone, Kazakhstan</h2>
+                        <br>
+                        <p>SAGE Three and RADARSAT-2 were both launched here, on December 7th, 2001, and December 14th, 2007, respectfully. SAGE Three provided measurements of water vapor, aerosols, and ozone. It reached an altitude
+                            of 1020 km, and was lost on March 6th 2006. RADARSAT-2 (A Canadian Space Agency effort) monitors inpacts of climate change, supports disaster relief, and manage our resources. It is still active today at an altitude of 800 kilometers. </p>
+                    </div>
+                </div>
+            </button>
+            <button class="map-point" style="top:47.5%;left:82.5%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h2>Tanegashima Space Center, Japan</h2>
+                        <br>
+                        <p>TRMM and ADEOS satellites were both launched here on November 27th, 1997, and August 17th, 1996, respectively. TRMM was designd to monitor and study tropical rainfal and the associated release of energy that helps power the global atmospheric circulation. It failed
+                            on April 8th 2015 after it went through its fuel reserves. ADEOS was dedicated to earth environmental research before failing on June 30th 1997 at an altitude of 803 kilometers. 
+                        </p>
+                    </div>
+                </div>
+            </button>
+            <button class="map-point" style="top:45%;left:15%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h2>Vandenburg Air Force Base</h2>
+                        <br>
+                        <p>A well known NASA launch site in California. Missions that have launched here include: Nimbus 1-7, Jason 1-3, Aqua, Aura, and Terra (click on surrounding dots
+                            for info on other satellites).
+                        </p>
+                        <h4>Nimbus 1-7</h4>
+                        <br>
+                        <p>The Nimbus Satellites were among the early Earth Observation missions done by NASA, and they focused on collecting meteorlogical data, and
+                            providing photos of local cloud conditions. The seven satellites were launched over a 12 year period between 1966 and 1978. 
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </button>
+            <button class="map-point" style="top:60%;left:32.5%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h2>Kourou, French Guiana</h2>
+                        <br>
+                        <p>Copernicus Sentinel One and Two were both launched here as a part of the European Space Agencies' Copernicus program. These missions were composed of five satellites,
+                            all of which were designed to help address challenges such as urbanization, food security, rising sea levels, and natural disasters. Sentinel One was desigend to provide imagery of earth's surface and weather, and Sentinel Two was designed to give us a new
+                            perspective of our land and vegetation.
+                             
+                        </p>
+                    </div>
+                </div>
+            </button>
+            <button class="map-point" style="top:55%;left:68.5%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h2>Sriharikota, India</h2>
+                        <br>
+                        <h4>EOD-0-4</h4>
+                        <br>
+                        <p>EOS-0-4 was launched here on February 14th, 2022, and was made for land observation. It is orbiting at an altitude of 529 kilometers. </p>
+                        <br> 
+                        <h4>NovaSAR-1</h4>
+                        <br>
+                        <p> NovaSAR-1 was launched on September 17th, 2018. NovaSAR-1 utilizes infared technology to provide extremely high resolution images of Earth and can operate in any weather condition. The information gathered from NovaSARS-1 aids in disaster management, such as bushfires and oil spills, for the Austrailian government.</p> 
+                    </div>
+                </div>
+            </button>
+            <button class="map-point" style="top:27.5%;left:55%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h2>Plesetsk Cosmodrome, Russia</h2>
+                        <br>
+                        <p>Copernicus Sentinel III, another expansion on the Copernicus series, launched in two satellites in 2015 and 2017. These satellites were designed to measure Earth's oceans, land, ice, and atmosphere to monitor
+                            and understand global dynamics. 
+                        </p>
+                    </div>
+                </div>
+            </button>
+            <button class="map-point" style = "top:42.5%; left:13.5%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h4>Jason 1-3</h4>
+                        <br>
+                        <p>These satellites mapped ocean surface topography. Jason-1 was in collaboration with the French space agency, and Jason 2-3 were also
+                            noted for international cooperation throughout the launches in 2001, 2008, and most recently, 2016. Jason-3 is currently operating at an altitude of 1336 kilometers. 
+                        </p>
+                        <br>
+                        <h4>Aura</h4>
+                        <br>
+                        <p>Launched July 15th, 2004, this satellite investigates air quality changes and ozone trends in relation to climate change. It was
+                            developed in collaboration with Finland, Netherlands, and the UK. It currently operates at an altitude of 705 kilometers. 
+                        </p>
+                    </div>
+                </div>
+            
+            </button>
+            <button class="map-point" style="top:47.5%; left:17%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h4>Aqua</h4>
+                        <br>
+                        <p>Launched on May 4th, 2002, it collects information wabout water in the Earth system. It was completed by NASA's collaboration with Brazil and Japan. Currently it is orbiting at 705 kilometers high with an inclination of 98.2.</p>
+                        <br>
+                        <h4>Terra</h4>
+                        <br>
+                        <p>Launched on December 18th, 1999, it provides global data on the state of the land, atmosphere, oceans, and their interactions with solar radiations and with each other. It currently orbits Earth at an altitude of 720 kilometers. </p>
+                    </div>
+            
+                </div>
+            </button>
+            <button class="map-point" style="top:80%; left:52.5%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h2>Stellenbosch University</h2>
+                        <br>
+                        <p>The first African Earth Observance satellite to be launched into space was developed here. SUNSAT launched from Vandenburg Air Force Base in California on February 23rd, 1999, with the objective in proving new technologies in remote sensing,
+                            aircraft control, and the solid Earth sciences. The last contact with the satellite was on January 19th, 2001, when it was lost due to hardware failure.
+                        </p>
+                    </div>
+                </div>
+            </button>
+            <button class="map-point" style="top:65%;left:52.5%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h2>SANSA (South African Space Agency)</h2>
+                        <br>
+                        <p>SANSA's first Earth Observation Satellite, EO-Sat 1, was developed by SANSA and has the capability to monitor the state and vegetation in agricultural lands and forests and disaster management.
+                            It was launched in 2019, and is still in orbit today 700 kilometers above earth's surface. 
+                        </p>
+                    </div>
+                </div>
+            
+            </button>
+            <button class="map-point" style="top:40%;left:75%">
+                <div class="content">
+                    <div class="centered-y">
+                        <h2>Jiuquan Satellite Launch Center, China</h2>
+                        <br>
+                        <p>GAOFEN-12 was launched June 27th, 2022. It is a microwave remote sensing satellite and will be used in urban planning, land surveys, disaster relief, and crop yield estimation. </p>
+                    </div>
+                </div>
+            </button>
+        </div>
+            
+        
+        <!--FOOTER-->
+        <footer>
+            <div class="containerb">
+              <div class="sec aboutus">
+                <h2 id="bi">Background Info</h2>
+                    <p>The people of Earth have a long history of observing their own planet. The practice of using satellites to observe Earth dates back to 1964 (and perhaps even before then) with Nimbus, a series of missions carried out by NASA.
+                        Since then, that number has only continued to grow, and now there are over 150 Earth Observing satellites in orbit. These Earth Observing satellites come not just from NASA, but from countries all across the world, all in an effort to understand our planet better. Enjoy
+                        your look into some of the Earth Observing Satellites in orbit today.
+                    </p>
+                <!--<p>Launched August 28, 1964, Nimbus I served to collect meteorological data and act as a platform fo testing meterological sensor systems. The Nimbus satellites were revolutionairy. Some of Nimbus' many firsts include: providing a map of a global distribution of photosynethic organisms and measuring ozone columns and profiles. </p>-->
+        
+                <ul class="sci">
+                  <li>
+                    <a class="instagram" href="https://www.instagram.com/contactsparkcode/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="sec quickLinks">
+                <h2 id="About">About this Map</h2>
+                    <p>Click on a point on the map to view some of the satellites that were launched at or near that location. Click back on the map to close the box and select again. </p>
+                 
+                  <!-- register link formally here rip -->
+              </div>
+              <div class="sec contact">
+                <h2 id="tbd">Courtesy Of...</h2>
+                <ul class="info">
+                    <img src="Images/lulu.jpeg" style="width:200px; height:300px">
+                  <!--
+                  <li>
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    <span>Address</span>
+                  </li>
+                  -->
+                  
+                  <!-- <li>
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <p><a href="tel:15097950048">+1 509 795 0048</a></p>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </footer>
+          <div class="copyrightText">
+            <p>© 2022 Nerd Herd</p>
+        
+          </div>
+
+        
+    </body>
+</html>
